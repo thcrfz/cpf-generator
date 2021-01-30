@@ -1,0 +1,60 @@
+html,
+body {
+  height: auto;
+  font-size: 62.5%;
+  background: #a1c5d6;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+button {
+  height: auto;
+  background: none;
+  padding: 1em;
+  border-radius: 1rem;
+  width: 50vh;
+  box-shadow: 1px 1px 1px rgb(48, 47, 47);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 95%;
+}
+
+button:focus {
+  outline: none;
+}
+
+table {
+  width: 100%;
+}
+
+.btn-generator {
+  background: #613396;
+  color: #ffffff;
+}
+.cpf-generate {
+  margin-top: 1em;
+  font-size: 8vh;
+}
+
+.container-section {
+  height: auto;
+  width: 70vh;
+  padding: 2em;
+  margin-top: 8em;
+  display: grid;
+  grid-template-rows: 5em;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 2px 2px 2px rgb(48, 47, 47);
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 0.5em;
+  background: #ffffff;
+}
